@@ -39,12 +39,12 @@ AWS allows **inter-region VPC peering**, meaning VPCs can communicate securely e
 #### Route Table in VPC-A
 | Destination CIDR | Target   |
 | ---------------- | -------- |
-| 192.24.0.0/16 (Private_Appsubnet) | pcx-xxxx |
+| 192.24.0.0/16 (Private_Appsubnet) | pcx-000fa12 |
 
 #### Route Table in VPC-B
 | Destination CIDR | Target   |
 | ---------------- | -------- |
-| 10.0.0.0/20 (Private_DBsubnet) | pcx-xxxx |
+| 10.0.0.0/20 (Private_DBsubnet) | pcx-11ses23 |
 
 ### Step 4: Launch EC2 using vpc of both region 
 #### EC2 Region-A
