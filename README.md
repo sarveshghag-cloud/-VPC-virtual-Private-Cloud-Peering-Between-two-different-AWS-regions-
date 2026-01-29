@@ -1,11 +1,11 @@
 # VPC (virtual Private Cloud) Peering Between two different AWS regions 
 
-## 📌 Overview
+##  Overview
 VPC Peering is a networking connection between two Virtual Private Clouds (VPCs) that enables routing traffic between them using private IPv4 addresses.  
 AWS allows **inter-region VPC peering**, meaning VPCs can communicate securely even if they are in **different AWS regions**.
 
 ---
-## ✅ Key Features
+##  Key Features
 - Private communication using AWS backbone network
 - Low latency and high bandwidth
 - No single point of failure
@@ -13,11 +13,11 @@ AWS allows **inter-region VPC peering**, meaning VPCs can communicate securely e
 - Works across **different AWS regions**
 ---
 
-## 🏗️ Architecture
-![alt text](Vpc_peering/VPC%20_peering.png)
+##  Architecture
+![alt text](IMG/VPC%20_peering.png)
 
 ---
-## ✅ Step-by-Step Configuration
+##  Step-by-Step Configuration
 
 ### Step 1: Create VPC Peering Connection
             1. Open AWS VPC Console
@@ -55,16 +55,16 @@ AWS allows **inter-region VPC peering**, meaning VPCs can communicate securely e
     1. DB Server
 ---
 
-## ✅ Output
+##  Output
 #### vpc-A Region
-![alt text](Vpc_peering/vpc-A_roadmap.png)
-![alt text](Vpc_peering/peerA.png)
-![alt text](Vpc_peering/ec2%20-A.png)
-![alt text](Vpc_peering/RouteTable.png)
+![alt text](IMG/vpc-A_roadmap.png)
+![alt text](IMG/peerA.png)
+![alt text](IMG/ec2%20-A.png)
+![alt text](IMG/RouteTable.png)
 
 #### vpc-B Region
-![alt text](Vpc_peering/vpc-B_roadmap.png)
-![alt text](Vpc_peering/peerB.png)
-![alt text](Vpc_peering/ec2-B.png)
-![alt text](Vpc_peering/terminal.png)
+![alt text](IMG/vpc-B_roadmap.png)
+![alt text](IMG/peerB.png)
+![alt text](IMG/ec2-B.png)
+![alt text](IMG/terminal.png)
 
